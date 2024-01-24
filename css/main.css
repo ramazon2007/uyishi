@@ -1,0 +1,80 @@
+body{
+    background-image: url(../photo_2024-01-22_16-04-14.jpg);
+    background-repeat: no-repeat;
+}
+.box
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-color: red;
+    margin-top: 64px;
+    margin-left: 43px;
+    animation: 5s ramazon infinite;
+}
+@keyframes ramazon {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    10%{
+        top: 0;
+        left: 225px;
+        border-radius: 10%;
+        background-color: blue;
+    }
+    20%{
+        top: 240px;
+        left: 225px;
+        border-radius: 20%;
+        background-color: chocolate;
+    }
+    30%{
+        top: 240px;
+        left: 780px;
+        border-radius: 30%;
+        background-color: chartreuse;
+    }
+    40%{
+        top: 370px;
+        left: 780px;
+        border-radius: 40%;
+        background-color: darkgreen;
+    }
+    50%{
+        top: 370px;
+        left: 470px;
+        border-radius: 50%;
+        background-color: greenyellow;
+    }
+    60%{
+        top: 325px;
+        left: 470px;
+        border-radius: 60%;
+        background-color: gray;
+    }
+    70%{
+        top: 325px;
+        left: 240px;
+        border-radius: 50%;
+        background-color: rebeccapurple;
+    }
+    80%{
+        top: 220px;
+        left: 100px;
+        border-radius: 40%;
+        background-color: royalblue;
+    }
+    90%{
+        top: 220px;
+        left: 5px;
+        border-radius: 30%;
+        background-color: gold;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        border-radius: 20%;
+        background-color: goldenrod;
+    }
+}
